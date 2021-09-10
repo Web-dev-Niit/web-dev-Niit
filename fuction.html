@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Function</title>
+    <script>
+      // Square
+      function Square(x) {
+        return x * x;
+      }
+      // Say Hello to User
+      function userName(x) {
+        alert("Hello " + x);
+      }
+      /* userName("John");
+      let result = Square(5);
+      document.write("The result is " + result); */
+      function user(name, age) {
+        let username = name;
+        let Age = age;
+        if (Age < 18){
+            document.write(`Hello ${username}, You are ${Age} Years old, not allowed here, go home`)
+        }
+        else{
+            document.write(` Welcome ${username}, you are ${Age} years old`);
+        }
+        
+      }
+      user("Daniel", 45);
+      /*if (5 > 2) {
+        document.write("Yes");
+      } else {
+        document.write("No");
+      }*/
+    </script>
+  </head>
+
+  <body></body>
+</html>
